@@ -10,7 +10,7 @@ const styles = {
         },
         container : {
             margin : '64px auto',
-            maxWidth : '1056px',
+            maxWidth : '1280px',
             padding : '2%'            
         }
     }
