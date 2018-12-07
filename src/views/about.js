@@ -1,4 +1,5 @@
 import React from 'react'
+import { translate } from 'react-i18next'
 import Typography from '@material-ui/core/Typography'
 import { withStyles } from '@material-ui/core/styles'
 // import data from '../db.json'
@@ -10,14 +11,14 @@ const styles = {
     }
 
 
-const About = ({classes}) => {
+const About = ({classes,t}) => {
     
     return (
          <div className={classes.root}>
-            <Typography variant='h3' children='About page' gutterBottom />
+            <Typography variant='h3' children={t('About page')} gutterBottom />
             
         </div>
     )   
 }
  
-export default withStyles(styles)(About)
+export default withStyles(styles)(translate('translations')(About))

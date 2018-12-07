@@ -15,16 +15,16 @@ export const theme = createMuiTheme(
                 },
             primary : 
                 {
-                    light : "rgba(79, 91, 98, 1)",
-                    main : "rgba(38, 50, 56, 1)",
-                    dark : "rgba(0, 10, 18, 1)",
-                    contrastText : "#fff"
+                    light : "#64e5dc",
+                    main : "#20b2aa",
+                    dark : "#00827b",
+                    contrastText : "#003930"
                 },
             secondary : 
                 {
-                    light : "rgba(98, 235, 255, 1)",
-                    main : "rgba(0, 184, 212, 1)",
-                    dark : "rgba(0, 136, 163, 1)",
+                    light : "#718792",
+                    main : "#455a64",
+                    dark : "#1c313a",
                     contrastText : "#fff"
                 },
             error : 
@@ -36,7 +36,7 @@ export const theme = createMuiTheme(
                 },
             text : 
                 {
-                    primary : "rgba(0, 0, 0, 0.87)",
+                    primary : "rgba(0, 0, 0, 0.77)",
                     secondary :  "rgba(0, 0, 0, 0.54)",
                     disabled : "rgba(0, 0, 0, 0.38)",
                     hint : "rgba(0, 0, 0, 0.38)"
