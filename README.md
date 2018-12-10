@@ -1,4 +1,4 @@
-# One Theme - Material React Starter Theme
+# Two Theme - Material React Starter Theme with Internationalization (i18n)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -73,8 +73,9 @@ class Header extends React.Component {
                         }}
                     >
                         
-                        <MenuItem value={'en'}>En</MenuItem>
-                        <MenuItem value={'el'}>Gr</MenuItem>
+                        <MenuItem value={'en'}>English</MenuItem>
+                        <MenuItem value={'el'}>Greek</MenuItem>
+                        <MenuItem value={'es'}>Spanish</MenuItem>
                         
                     </Select>
                 </FormControl>

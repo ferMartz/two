@@ -27,7 +27,18 @@ i18n
                 "                    αλλαγές.",
                 "Declarative views make your code more predictable and easier to debug.": "Οι δηλωτικές προβολές καθιστούν τον κώδικα πιο προβλέψιμο και πιο εύκολο στον εντοπισμό σφαλμάτων."
             }
-        }
+        },
+        es : {
+            translations : {
+                "Welcome to React.js": "Bienvenido a React.js",
+                "About" : "Nosotros",
+                "About page" : "Esta es la pagina acerca de nosotros.",
+                "Language" : "Lenguage",
+                "Declarative": "Declarativo",
+                "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.": "React hace que sea fácil crear interfaces de usuario interactivas. Diseñe vistas simples para cada estado en su aplicación, y React actualizará y representará de manera eficiente los componentes correctos cuando sus datos cambien.",
+                "Declarative views make your code more predictable and easier to debug.": "Las vistas declarativas hacen que su código sea más predecible y más fácil de depurar."
+            }
+        },
     },
     fallbackLng : 'en',
     debug : true,
